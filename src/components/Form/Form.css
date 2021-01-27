@@ -1,0 +1,57 @@
+#contactHeader {
+    color: white;
+}
+.formContainer {
+    background: url(https://bit.ly/2YhoqJT);
+    width: 100vw;
+    height: 90vh;
+    margin: 2% auto ;
+    text-align: center
+}
+
+#sform{
+    margin: 0 auto;
+    width: 40vw;
+    height: 80%;
+    padding: 2% 3%;
+    background-color: rgba(128, 128, 128, 0.486);
+    border: 1px solid gray;
+    border-radius: 8px;
+}
+.inputfield {
+    width: 85%;
+    margin: 2% 2%;
+    padding: 2%;
+    border: 1px solid black;
+}
+
+.messagefield {
+    width: 85%;
+    border: 1px solid black;
+    padding: 15% 2%;
+}
+
+.submitButton {
+    background-color: teal;
+    color: white;
+    border: 1px solid teal;
+    border-radius: 5px;
+    padding: 2% 2%;
+    margin-top: 2%;
+}
+.submitButton:hover {
+    color: black;
+    background-color: white;
+    border: 1px solid red;
+}
+
+/* media queries */
+
+@media all and (max-width: 800px) {
+    #sform {
+        height: 40%;
+    }
+    .formContainer {
+        height: 74vh;
+    }
+}

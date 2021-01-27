@@ -1,0 +1,75 @@
+* {
+    font-family: 'Playfair Display', serif;
+}
+.navbarContainer {
+    background: #d8a191;
+    width: 100%;
+    height: 7vh;
+    text-align: center;
+    display: inline-block;
+}
+.navbarSub{
+    margin: 1%;
+    text-align: center;
+}
+.navTitle{
+    color: white;
+    vertical-align: middle;
+    text-decoration: none;
+    font-size: 1.7rem;
+    font-weight: bolder;
+    float: left;
+    margin-left: 10%;
+    line-height: 50%;
+}
+.navListItems {
+    width: 40%;
+    text-align: center;
+    display: inline-block;
+    list-style: none;
+    vertical-align: middle;
+    margin-top: .5%;
+    font-weight: bold;
+    font-size: 1 rem;
+    line-height: 60%;
+}
+.navListItem {
+    color: white;
+    text-align: center;
+    float: left;
+    text-decoration: underline;
+    padding: 0 3%;
+    margin:  auto;
+
+}
+.navListItem:hover {
+    color: #ad705d;
+}
+#cart {
+    width: 21px;
+    position: absolute;
+    right: 3%;
+    cursor: pointer;
+}
+
+
+/* media queries */
+
+@media all and (max-width:800px) {
+    .navTitle {
+       line-height: normal;
+    }
+    .navListItems {
+        line-height: normal;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .navTitle {
+        font-size: 1rem; 
+    }
+    .navListItems {
+        font-size: 14px;
+        width: 62%;
+    }
+}
